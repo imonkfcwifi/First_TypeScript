@@ -2,7 +2,7 @@ function lastarray<V>(a: V[]) {
   return a[a.length - 1];
 }
 
-function push<T, V>(a: T[], b: V) {
+function push<T, V>(a: T[], b: V[]) {
   return Array.prototype.unshift.apply(a, b);
 }
 
